@@ -275,10 +275,9 @@ POST parameters are sent as form-data.
 }
 ```
 
-## Installation and execution
-1. copy `data/librarylite_original.db` to `data/librarylite.db`.
-2. Start Docker Desktop
-3. In the command line, run `docker-compose up -d`. The API will be available at `http://localhost:8080`.
+## Execution
+1. Start Docker Desktop
+2. In the command line, run `docker-compose up -d`. The API will be available at `http://localhost:8080`.
 
 The API will be available at `http://localhost:8080`.
 
