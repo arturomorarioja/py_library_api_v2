@@ -1,4 +1,4 @@
-# Library API
+# Library API v2
 Python Flask API that serves e-book information in the context of a digital online library.
 
 ## Endpoints
