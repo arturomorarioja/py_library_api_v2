@@ -24,7 +24,7 @@ POST parameters are sent as form-data.
 |Method|Endpoint|POST params|Description|
 |------|--------|-----------|-----------|
 |GET|/admin/books/<book_id>||Retrieve information about a book and its loan history|
-|POST|/admin/books|title, author_id, publisher_id, publishing_year|Create a new book. All parameters are mandatory. Year must be higher than the present year|
+|POST|/admin/books|title, author_id, publisher_id, publishing_year|Create a new book. All parameters are mandatory. Year must be lower or equal than the present year|
 |POST|/admin/authors|first_name, last_name|Create a new author. All parameters are mandatory|
 |POST|/admin/publishers|name|Create a new publisher. The parameter is mandatory|
 
