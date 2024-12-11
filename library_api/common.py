@@ -21,11 +21,10 @@ def basic_book_info(book_id: int):
         ''',
         (book_id,)
     ).fetchone()
-    
-    if book == None:
-        return error_message('Book not found'), 404
-    else:        
 
+    if book == None:
+        return error_message('Book not found')
+    else:        
         # The book title is obtained from the book cover API
         book_cover_base_url = os.getenv('BOOK_COVER_BASE_URL')
         book_title = convert_to_html_entities(book['title'])
